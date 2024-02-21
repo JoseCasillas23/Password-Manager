@@ -23,3 +23,17 @@ Stages
 * Plannify into the next 3 months
 * Research Stage?
 * Dev Stage?
+
+### Password Administrator
+* Written in Python/C++
+* A serialization method must be implemented to  cipher the password
+* SQL DataBase to storage the main data -> platform, username, password
+* AWS to storage the same passwords in Cloud
+ 
+#### Next Steps
+* Choose the best programming language from my options
+* Research of Serialization methods in said language
+* GUI to work from 
+* Connection with the Application and the DB
+* Connection between the DB and Cloud
+* Cybersecurity measures to be safe 
