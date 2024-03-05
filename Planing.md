@@ -28,7 +28,7 @@ To pull some data will be:
 ### Project Next Steps 
 1. Work for this Week (26/Feb/24 - 02/Mar/2024)
     * Update Python [DONE]
-    * Work with MySQL to be able to use it again 
+    * Work with MySQL to be able to use it again [DONE]
     * Requirement to work with the GUI [DONE]
     * Read the link about connections with Cloud [DONE]
     * Read the link about encryption 
