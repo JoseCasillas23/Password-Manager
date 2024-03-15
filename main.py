@@ -1,3 +1,9 @@
+#----------------- Work -------------------#
+'''
+1. Conectar la base de datos 
+''' 
+import Menu.createPswd as create
+import Menu.addPswd as add
 ##----------------Test Variables--------------------##
 mainUser = "casijo1"
 mainPwd = "Jmcr2001!@"
@@ -22,6 +28,8 @@ def main_menu():
         print("Programa Bloqueado")
         return flag_master_data
 def options_menu():
+    flag_menu = False
+    info = ["","",""]
     print("----MAIN MENU---- \n")
     print("----1.Create Random Password---- \n")
     print("----2.Add New Password      ---- \n")
@@ -29,6 +37,11 @@ def options_menu():
     print("----4.Update Password       ---- \n")
     print("----5.Delete Password       ---- \n")
     opc = input("Selecciona una opcion: ")
+    if opc == "1":
+        flag_menu, info = create.createPswd()
+    if opc == "2":
+        flag_menu,info = add.addPswd()
+        
 ##----------------------------- Main Code ----------------------------------##
 def main():
     auth_flag = False
